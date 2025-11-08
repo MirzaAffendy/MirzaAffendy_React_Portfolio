@@ -112,6 +112,12 @@ export const PROJECTS = [{
     },
 ];
 
+export const RESEARCH = [{
+    title: "Leveraging Deep Learning for Agricultural Market Forecasting and Supply Chain Optimization in Malaysia",
+    description: `Published a research paper on Leveraging Deep Learning for Agricultural Market Forecasting and Supply Chain Optimization in Malaysia — officially published in the Journal of Infrastructure, Policy and Development (Vol. 9, Issue 2, 2025).`,
+    year: "2025",
+    link: "https://systems.enpress-publisher.com/index.php/jipd/article/view/8966", // optional if you have one
+}, ];
 
 
 export const CONTACT = {

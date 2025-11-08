@@ -1,11 +1,12 @@
-import React, { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import About from './components/About';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Research from "./components/Research";
+import Contact from "./components/Contact";
 
 const App = () => {
     const circleRef1 = useRef(null);
@@ -46,7 +47,7 @@ const App = () => {
         < /div> <
         /div>
 
-        <
+        { /* Page Content */ } <
         div className = "container mx-auto px-8" >
         <
         Navbar / >
@@ -58,6 +59,8 @@ const App = () => {
         Experience / >
         <
         Projects / >
+        <
+        Research / >
         <
         Contact / >
         <
